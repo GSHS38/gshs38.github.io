@@ -54,3 +54,10 @@ p.url {
   display:inline-block;
   vertical-align: bottom 0px;
 }
+table.url{
+  border-collapse:collapse;
+}
+th.url {
+  border: 1px solid #FFFFFF;
+  
+}
