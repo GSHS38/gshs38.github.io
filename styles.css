@@ -2,6 +2,7 @@ body {
   background:linear-gradient(to bottom, black,#555555) no-repeat center center fixed;
 
   background-size:cover;
+  margin-top:80px;
 }
 
 a.menu {
@@ -28,8 +29,9 @@ a.menu:hover {
   top:5px;
   left:0px;
   width:100%;
-  height:55px;
+  height:57px;
   background-color:#111111;
+  border-bottom:1px solid white;
 }
 #menubtn{
   display:table-cell;
@@ -59,5 +61,5 @@ table.url{
 }
 th.url {
   border: 1px solid #FFFFFF;
-  
+
 }
