@@ -1,0 +1,43 @@
+* {
+  background-color: black;
+}
+
+a.menu {
+  width:25%; height:50px; display:inline-block;
+  background-color:black;
+ font-size:20px;
+ color:white;
+ text-decoration: none;
+ border: 1px solid #FFFFFF;
+ margin:-5px;
+ transition: background-color 0.2s;
+ vertical-align:center;
+}
+a.menu:hover {
+  background-color:gray;
+}
+
+#gshsx {
+  position: fixed;
+  width:90%;
+  border: 1px solid #hsla(360, 100%, 100%, 0.5);
+  margin:0;
+}
+#menubtn{
+  display:inline-block;
+  width:100%;
+  vertical-align:center;
+}
+table {
+  border-collapse:collapse;
+  border: 1px solid #FFFFFF;
+  padding: 10px;
+}
+th, td {
+  border: 1px solid #FFFFFF;
+  padding: 10px;
+}
+
+h1,h2,p {
+  color:white;
+}
