@@ -100,3 +100,13 @@ td.def{
 td.ghj{
   border: 1px solid #FFFFFF;
 }
+
+a.course {
+  color : white;
+  transition: 0.2s;
+  text-decoration: none;
+  font-size:20px;
+}
+a.course:hover {
+  color:gray;
+}
