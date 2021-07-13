@@ -90,15 +90,15 @@ h2{
   font-size: 25px;
   text-align: center;
 }
-td.abc{
+td.intro_master_td{
   width: 500px;
   border: 1px solid #FFFFFF;
 }
-td.def{
+td.intro_member_td{
   width: 300px;
   border: 1px solid #FFFFFF;
 }
-td.ghj{
+td.intro_member_desc_td{
   border: 1px solid #FFFFFF;
 }
 
