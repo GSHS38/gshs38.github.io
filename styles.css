@@ -41,3 +41,16 @@ th, td {
 h1,h2,p {
   color:white;
 }
+
+a.url {
+  color:white;
+  text-decoration:none;
+}
+img.url {
+  width:100%;
+  height:auto;
+}
+p.url {
+  display:inline-block;
+  vertical-align: bottom 0px;
+}
