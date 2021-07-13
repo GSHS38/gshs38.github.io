@@ -56,7 +56,7 @@ p.url {
   display:inline-block;
   vertical-align: bottom 0px;
 }
-table.url{
+table{
   border-collapse:collapse;
 }
 th.url {
@@ -91,8 +91,12 @@ h2{
 }
 td.abc{
   width: 500px;
+  border: 1px solid #FFFFFF;
 }
 td.def{
-  width: 300px
-
+  width: 300px;
+  border: 1px solid #FFFFFF;
+}
+td.ghj{
+  border: 1px solid #FFFFFF;
 }
