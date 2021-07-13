@@ -60,7 +60,7 @@ p.url {
 table{
   border-collapse:collapse;
 }
-th.url {
+td.url {
   border: 1px solid #FFFFFF;
 }
 
@@ -71,13 +71,13 @@ img.gallery {
 
 }
 
-.intro{
+.intro_name{
   color: #ffffff;
   font-family: courier;
   font-size: 40px;
   text-align: center;
 }
-.intro2{
+.intro_desc{
   color: #ffffff;
   font-family: courier;
   font-size: 15px;
