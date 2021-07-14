@@ -3,7 +3,6 @@ body {
 
   background-size:cover;
   margin-top:80px;
-
 }
 
 a.menu {
@@ -14,16 +13,21 @@ a.menu {
 
   padding:15px 20px;
 
+
+}
+a.menu:link{
+  color:white;
   transition: background-color 0.2s;
 }
 a.menu:hover {
   background-color:gray;
+  transition: background-color 0.2s;
 }
 #gshsmark{
   display:inline;
   float:left;
   margin-right:20px;
-  height:55px;
+  width:55px;
 }
 #gshst {
   position:fixed;
@@ -39,31 +43,69 @@ a.menu:hover {
   display:table-cell;
   height:55px;
   vertical-align: middle;
-
 }
 
 h1,h2,p {
   color:white;
 }
 
+div.linklist{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: left;
+  align-self: center;
+}
+
+
+div.link{
+  background-color:white;
+  border-radius:10px;
+  display: inline-block;
+  padding:5px;
+  height:350px;
+  margin:10px;
+
+}
+div.link:link{
+  transition: background-color 0.2s, box-shadow 0.5s;
+}
+div.link:hover{
+  background-color:#EEEEEE;
+  box-shadow:0 0 20px white;
+transition: background-color 0.2s, box-shadow 0.5s;
+}
+
+.imgbox{
+  width:300px;
+  height:300px;
+  border-radius:10px;
+  overflow:hidden;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+img.url{
+  object-fit: cover;
+  object-position:center;
+  width:300px;
+}
 a.url {
-  color:white;
+  color:black;
+  text-align:center;
   text-decoration:none;
+  border-radius:3px;
 }
-img.url {
-  width:90%;
-  height:auto;
+p.url{
+  color:black;
+  font-family:Impact;
+  font-size:1.5em;
+  margin:10px;
 }
-p.url {
-  display:inline-block;
-  vertical-align: bottom 0px;
-}
+
 table{
   border-collapse:collapse;
 }
-td.url {
-  border: 1px solid #FFFFFF;
-}
+
 
 img.gallery {
   width:80%;
@@ -104,9 +146,11 @@ td.intro_member_desc_td{
 
 a.course {
   color:white;
-  transition: color 0.2s;
   text-decoration: none;
   font-size:20px;
+}
+a.course:link{
+  transition:color 0.2s;
 }
 a.course:hover {
   color:gray;
