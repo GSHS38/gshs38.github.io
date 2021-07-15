@@ -156,3 +156,28 @@ a.course:hover {
   color:gray;
   transition: color 0.2s;
 }
+  td.intro_t_main_ip{
+    width: 300px;
+    border: 1px solid #FFFFFF;
+    text-align: center;
+  }
+  td.intro_t_main_mi{
+    border: 1px solid #FFFFFF;
+    text-align: center;
+  }
+  p.intro_t_miner{
+    text-align: center;
+    font-family: courier;
+    font-size: 25px;
+  }
+  p.intro_t_info{
+    text-align: center;
+    font-family: courier;
+    font-size: 15px;
+  }
+  .img_t{
+    border-radius:10px;
+    width:300px;
+    height:150px;
+  justify-content:center;
+  }
