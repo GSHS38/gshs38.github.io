@@ -62,40 +62,50 @@ div.link{
   border-radius:10px;
   display: inline-block;
   padding:5px;
+  width:310px;
   height:350px;
   margin:10px;
 
 }
 div.link:link{
   transition: background-color 0.2s, box-shadow 0.5s;
+  word-wrap: break-word;
 }
 div.link:hover{
   background-color:#EEEEEE;
   box-shadow:0 0 20px white;
-transition: background-color 0.2s, box-shadow 0.5s;
+  transition: background-color 0.2s, box-shadow 0.5s;
+
 }
 
-.imgbox{
+div.imgbox{
   width:300px;
   height:300px;
   border-radius:10px;
+  
   overflow:hidden;
-  display:flex;
+  /*display:flex;
   justify-content:center;
-  align-items:center;
+  align-items:center;*/
+  margin:0;
 }
 img.url{
-  object-fit: cover;
-  object-position:center;
-  width:300px;
+  /*object-fit: cover;
+  object-position:center;*/
+  align-self:center;
+  width:100%;
+
 }
 a.url {
   color:black;
   text-align:center;
   text-decoration:none;
   border-radius:3px;
+
 }
 p.url{
+  width:290px;
+  overflow: hidden;
   color:black;
   font-family:Impact;
   font-size:1.5em;
