@@ -87,14 +87,15 @@ div.imgbox{
   /*display:flex;
   justify-content:center;
   align-items:center;*/
-  margin:0;
+  margin:auto;
+  display:flex;
 }
 img.url{
   /*object-fit: cover;
   object-position:center;*/
   align-self:center;
   width:100%;
-
+  margin:auto
 }
 a.url {
   color:black;
