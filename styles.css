@@ -65,17 +65,13 @@ div.link{
   width:310px;
   height:350px;
   margin:10px;
-
-}
-div.link:link{
-  transition: background-color 0.2s, box-shadow 0.5s;
   word-wrap: break-word;
+  transition:filter 0.5s;
 }
 div.link:hover{
-  background-color:#EEEEEE;
+  filter: brightness(150%);
   box-shadow:0 0 20px white;
-  transition: background-color 0.2s, box-shadow 0.5s;
-
+  transition: box-shadow 0.5s;
 }
 
 div.imgbox{
