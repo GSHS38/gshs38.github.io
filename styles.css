@@ -78,7 +78,7 @@ div.imgbox{
   width:300px;
   height:300px;
   border-radius:10px;
-  
+
   overflow:hidden;
   /*display:flex;
   justify-content:center;
@@ -108,7 +108,16 @@ p.url{
   font-size:1.5em;
   margin:10px;
 }
-
+p.main_intro{
+  text-align: center;
+  font-family: courier;
+  font-size: 37px;
+}
+p.miner_intro{
+  text-align: center;
+  font-family: courier;
+  font-size: 27px;
+}
 table{
   border-collapse:collapse;
 }
