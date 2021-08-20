@@ -1,0 +1,15 @@
+div.nameBox {
+    border:1px solid white;
+    width:90%;
+    align-self:left;
+    display:inline-block;
+    line-height:120%
+  }
+ 
+  
+  div.NameCountainer {
+    max-width: 1350px;
+    width:60%;
+  margin:auto;
+  }
+ 
