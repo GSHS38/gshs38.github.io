@@ -1,10 +1,10 @@
 body {
   background:linear-gradient(to bottom, black,#555555) no-repeat center center fixed;
-
+  color:white;
   background-size:cover;
   margin-top:80px;
 }
-
+/*-----------------------------------------------------------------------------------------*/
 a.menu {
   background-color:black;
   font-size:20px;
@@ -12,7 +12,6 @@ a.menu {
   text-decoration: none;
 
   padding:15px 20px;
-
 
 }
 a.menu:link{
@@ -23,6 +22,7 @@ a.menu:hover {
   background-color:gray;
   transition: background-color 0.2s;
 }
+/*-----------------------------------------------------------------------------------------*/
 #gshsmark{
   display:inline;
   float:left;
@@ -45,10 +45,7 @@ a.menu:hover {
   vertical-align: middle;
 }
 
-h1,h2,p {
-  color:white;
-}
-
+/*-----------------------------------------------------------------------------------------*/
 div.linklist{
   display:flex;
   flex-wrap:wrap;
@@ -108,7 +105,7 @@ p.url{
   font-size:1.5em;
   margin:10px;
 }
-
+/*-----------------------------------------------------------------------------------------*/
 table{
   border-collapse:collapse;
 }
@@ -131,7 +128,8 @@ img.gallery {
   color: #ffffff;
   font-family: courier;
   font-size: 15px;
-  text-align: center;
+  text-align: left;
+  margin-left:10px;
 }
 h2{
   color: #ffffff;
@@ -231,3 +229,17 @@ div.slide > p{
 .next{
   right:0;
 }
+/*--------------------introduce---------------------------------*/
+div.nameBox {
+  border:1px solid white;
+  width:90%;
+  align-self:left;
+  display:inline-block;
+  line-height:120%
+}
+div.NameCountainer {
+  max-width: 1350px;
+  width:60%;
+
+}
+/*--------------------------------------------------------------*/
