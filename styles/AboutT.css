@@ -1,0 +1,58 @@
+div.nameBox {
+  border:5px double white;
+  width:90%;
+  align-self:left;
+  display:inline-block;
+  line-height:120%
+}
+div.NameContainer {
+  max-width: 1350px;
+  min-width: 650px;
+  width:60%;
+  margin:auto;
+  text-align:center;
+}
+div.MainNameBox {
+    border:20px ridge white;
+    width:90%;
+    align-self:left;
+    display:inline-block;
+    line-height:120%
+  }
+div.subNameBox {
+  border:20px groove white;
+  width:550px;
+  height:450px;
+  align-self:left;
+  display:inline-flex;
+  flex-direction:column;
+  line-height:120%;
+  margin:auto;
+  margin-left:5px;
+  margin-right:5px;
+  margin-bottom:10px;
+}
+div.subNameContainer {
+  max-width: 1800px;
+  min-width: 550px;
+  width:90%;
+  margin:auto;
+  text-align:center;
+}
+h3.Name {
+  text-align:left;
+  margin-left:10px; 
+  line-height:80%;
+}
+hr.InSubNameBox {
+    margin:0;
+}
+
+
+.introduceP{
+    color: #ffffff;
+    font-family: courier;
+    font-size: 15px;
+    text-align: left;
+    margin-left:10px;
+  }

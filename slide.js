@@ -26,3 +26,5 @@ function slideupdate(){
 
 
 slideupdate();
+
+setInterval(slidenext,10000);

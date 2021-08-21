@@ -1,0 +1,50 @@
+div.LinkList{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: left;
+  align-self: center;
+}
+  div.Glink{
+    background-color:white;
+    border-radius:10px;
+    display: inline-block;
+    padding:5px;
+    width:310px;
+    height:350px;
+    margin:10px;
+    word-wrap: break-word;
+    transition:filter 0.5s;
+  }
+  div.Glink:hover{
+    filter: brightness(150%);
+    box-shadow:0 0 20px white;
+    transition: box-shadow 0.5s;
+  }
+  div.Gimgbox{
+    width:300px;
+    height:300px;
+    border-radius:10px;
+    overflow:hidden;
+    margin:auto;
+    display:flex;
+  }
+  img.Gurl{
+    align-self:center;
+    width:100%;
+    margin:auto
+  }
+  a.Gurl {
+    color:black;
+    text-align:center;
+    text-decoration:none;
+    border-radius:3px;
+  }
+  p.Gurl{
+    width:290px;
+    overflow: hidden;
+    color:black;
+    font-family:Impact;
+    font-size:1.5em;
+    margin:10px;
+  }
+  
