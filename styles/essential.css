@@ -92,47 +92,5 @@ h2{
   text-align: center;
 }
 
-/*-----------------------------------------------------------------------------------------*/
-
-.intro_name{
-  color: #ffffff;
-  font-family: courier;
-  font-size: 40px;
-  text-align: center;
-}
-/*none after fixing*/
-
-.intro_desc{
-  color: #ffffff;
-  font-family: courier;
-  font-size: 15px;
-  text-align: left;
-  margin-left:10px;
-}
-/*none after fixing*/
-
-td.intro_master_td{
-  width: 500px;
-  border: 1px solid #FFFFFF;
-}
-/*none after fixing*/
-
-td.intro_member_td{
-  width: 300px;
-  border: 1px solid #FFFFFF;
-}
-/*none after fixing*/
-
-td.intro_member_desc_td{
-  border: 1px solid #FFFFFF;
-}
-/*none after fixing*/
-table{
-  border-collapse:collapse;
-}
-/*none after fixing*/
-
-
-
 
 
