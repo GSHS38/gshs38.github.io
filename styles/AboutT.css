@@ -1,8 +1,9 @@
 div.nameBox {
   border:5px double white;
   width:90%;
-  align-self:left;
   display:inline-block;
+  margin: 0;
+  margin-top:15px;
   line-height:120%
 }
 div.NameContainer {
@@ -16,8 +17,9 @@ div.MainNameBox {
     border:20px ridge white;
     width:90%;
     align-self:left;
-    display:inline-block;
+    display:block;
     line-height:120%
+    text-align: center;
   }
 div.subNameBox {
   border:20px groove white;
@@ -41,7 +43,7 @@ div.subNameContainer {
 }
 h3.Name {
   text-align:left;
-  margin-left:10px; 
+  margin-left:10px;
   line-height:80%;
 }
 hr.InSubNameBox {
