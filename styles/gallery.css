@@ -16,8 +16,7 @@ div.LinkList{
     transition:filter 0.5s;
   }
   div.Glink:hover{
-    filter: brightness(150%);
-    box-shadow:0 0 20px white;
+    box-shadow:0 0 50px white;
     transition: box-shadow 0.5s;
   }
   div.Gimgbox{
