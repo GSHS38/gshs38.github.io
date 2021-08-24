@@ -1,40 +1,50 @@
 p.main_intro{
     text-align: center;
     font-family: courier;
+    color: white;
     font-size: 37px;
     margin-top: 30px;
   }
-  
-  
+
+
   p.miner_intro{
     text-align: center;
     font-family: courier;
     font-size: 27px;
+    color: white;
   }
-  
+
 
   div.slide-container{
-    width:90%;
+    width:1000px;
     position:relative;
     margin:auto;
     color:black;
     background-color:white;
     border-radius:5px;
-    height:700px;
+    height:500px;
   }
-  
-  
+
+
   div.slide{
+    height:100%;
     text-align:center;
     display:none;
     color:black;
+    margin:0 auto;
+    width: 100%;
   }
-  
-  div.slide > p{
+
+  div.slide > div{
     color:black;
+    background-repeat: no-repeat;
+    height:100%;
+    width:100%;
+
+    background-origin: padding-box;
+    background-size: 100%;
   }
-  
-  
+
   .prev,.next{
     cursor:pointer;
     user-select:none;
@@ -63,4 +73,3 @@ p.main_intro{
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
   }
-  
