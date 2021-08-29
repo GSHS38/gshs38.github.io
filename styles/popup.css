@@ -1,0 +1,67 @@
+#popupHider{
+    visibility:hidden;  
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:99;
+    animation:fadeOut 0.5s;
+}
+
+.visible#popupHider{
+    visibility:visible;
+    animation:fadeIn 1s;
+    background-color: #00000077;
+}
+.invisible#popuphider{
+    visibility:hidden;
+    animation:fadeOut 0.5s;
+}
+.popup{
+    visibility: hidden;
+    position:fixed;
+    animation:fadeOut 0.5s;
+}
+
+.visible.popup{
+    visibility:visible;
+    display:block;
+
+    margin:20px;
+    background-color: white;
+    border-radius: 5px;
+    animation:fadeIn 0.5s;
+    z-index:100;
+    user-select: text;
+}
+
+.invisible.popup{
+    visibility:hidden;
+    animation:faceOut 0.5s;
+}
+.visible.popup p{
+    color:black;
+    z-index:1;
+    font-size:20px;
+}
+
+@keyframes fadeIn{
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+@keyframes fadeOut{
+    from {
+        opacity:1;
+        visibility: visible;
+    }
+    to {
+        opacity:0;
+        visibility:hidden;
+    }
+}
