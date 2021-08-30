@@ -1,46 +1,66 @@
 #popupHider{
-    visibility:hidden;  
+    visibility: hidden;
+    opacity: 0;
     position:fixed;
     top:0;
     left:0;
     width:100%;
     height:100%;
     z-index:99;
-    animation:fadeOut 0.5s;
+    background-color: #000000BB;
 }
 
 .visible#popupHider{
     visibility:visible;
-    animation:fadeIn 1s;
-    background-color: #00000077;
+    opacity:1;
+    transition: opacity 0.5s;
 }
-.invisible#popuphider{
-    visibility:hidden;
+.invisible#popupHider{
+    opacity:0;
+    transition:opacity 0.5s;
     animation:fadeOut 0.5s;
+    pointer-events: none;
 }
 .popup{
-    visibility: hidden;
     position:fixed;
-    animation:fadeOut 0.5s;
+    left:50%;
+    top:500px;
+    background-color: white;
+    border-radius: 5px;
+    z-index:100;
+    user-select: text;
+    display:block;
+    width:800px;
+    height:700px;
+    overflow:scroll;
+    margin-left:-400px;
+    margin-top:150px;
+    padding:20px;
+    opacity:0;
+    visibility:hidden;
+
+    scrollbar-color:white;
+    scrollbar-base-color: aqua;
 }
 
 .visible.popup{
     visibility:visible;
-    display:block;
+    opacity:1;
+    top:0px;
 
-    margin:20px;
-    background-color: white;
-    border-radius: 5px;
-    animation:fadeIn 0.5s;
-    z-index:100;
-    user-select: text;
+    transition:opacity 0.5s,top 0.5s;
+    /* animation:fadeIn 0.5s, goUp 0.5s; */
+    
 }
 
 .invisible.popup{
-    visibility:hidden;
-    animation:faceOut 0.5s;
+    opacity:0;
+    top:200px;
+    transition: opacity 0.5s, top 0.5s;
+    pointer-events: none;
+    animation:fadeOut 0.5s;
 }
-.visible.popup p{
+.popup p{
     color:black;
     z-index:1;
     font-size:20px;
@@ -55,13 +75,30 @@
     }
 }
 
+
 @keyframes fadeOut{
     from {
-        opacity:1;
-        visibility: visible;
+        visibility:visible;
     }
     to {
-        opacity:0;
         visibility:hidden;
+    }
+}
+
+@keyframes goUp{
+    from{
+        top:500px;
+    }
+    to{
+        top:200px;
+    }
+}
+
+@keyframes goDown{
+    from{
+        top:200px;
+    }
+    to{
+        top:500px;
     }
 }

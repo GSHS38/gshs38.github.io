@@ -20,7 +20,7 @@ div.MainNameBox {
     display:block;
     line-height:120%;
     text-align: center;
-  }
+}
 div.subNameBox {
   border:20px groove white;
   width:550px;
@@ -57,5 +57,11 @@ hr.InSubNameBox {
     font-size: 15px;
     text-align: left;
     margin-left:10px;
-  }
+}
 
+.profileImage{
+  width:500px;
+}
+.profileImage:hover{
+  filter:opacity(80%);
+}

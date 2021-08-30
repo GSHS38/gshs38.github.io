@@ -1,7 +1,9 @@
 function showPopup(n){
-    const elem = document.querySelectorAll('.popup')[n-1];
+    const elem = document.getElementById('member'+n);
+    elem.classList.remove('invisible');
     elem.classList.add('visible');
     const background = document.querySelector('#popupHider');
+    background.classList.remove('invisible');
     background.classList.add('visible');
 }
 
