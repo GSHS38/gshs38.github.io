@@ -61,6 +61,9 @@ hr.InSubNameBox {
 
 .profileImage{
   width:500px;
+  display:block;
+  margin:0 auto;
+  position: static;
 }
 .profileImage:hover{
   filter:opacity(80%);
