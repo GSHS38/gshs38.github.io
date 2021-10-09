@@ -1,75 +1,83 @@
+
+
+
 p.main_intro{
     text-align: center;
     font-family: courier;
     color: white;
     font-size: 37px;
     margin-top: 30px;
+    margin-bottom:120px;
   }
 
 
-  p.miner_intro{
-    text-align: center;
-    font-family: courier;
-    font-size: 27px;
-    color: white;
-  }
+p.miner_intro{
+  text-align: center;
+  font-family: courier;
+  font-size: 27px;
+  color: white;
+}
 
 
-  div.slide-container{
-    width:1300px;
-    position:relative;
-    margin:auto;
-    color:black;
-    background-color:white;
-    border-radius:5px;
-    height:600px;
-  }
+div.slide-container{
+  width:100%;
+  position:relative;
+  margin:0;
+  background-color:black;
+  border-radius:5px;
+  height:600px;
+}
 
 
-  div.slide{
-    height:100%;
-    text-align:center;
-    display:none;
-    color:black;
-    margin:0 auto;
-    width: 100%;
-  }
+div.slide{
+  position:absolute;
+  top:0;
+  left:0;
+  height:100%;
+  text-align:center;
+  color:black;
+  margin:0 auto;
+  width: 100%;
+  background-size:cover;
+}
 
-  div.slide > div{
-    color:black;
-    background-repeat: no-repeat;
-    height:100%;
-    width:100%;
+div.slide.show{
+  transition:0.5s;
+}
+div.slide.hide{
+  transition:0.5s;
+  transform:translateX(-100%);
+}
+div.slide:not(.show, .hide){
+  transform:translateX(100%);
+  transition:0.5s;
+}
 
-    background-origin: padding-box;
-    background-size: 100%;
-  }
-
-  .prev,.next{
-    cursor:pointer;
-    user-select:none;
-    position:absolute;
-    top:50%;
-    font-weight:bold;
-    width:auto;
-    margin-top:-33px;
-    background-color: rgb(218,218,218);
-    color:black;
-    padding:20px 10px;
-    transition:opacity 0.2s;
-    opacity:30%;
-  }
-  .prev:hover,.next:hover{
-    background-color:rgb(156, 156, 156);
-    opacity:100%;
-  }
-  .prev{
-    left:0;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-  }
-  .next{
-    right:0;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-  }
+.prev,.next{
+  cursor:pointer;
+  user-select:none;
+  position:absolute;
+  top:50%;
+  font-weight:bold;
+  width:auto;
+  margin-top:-33px;
+  background-color: rgb(218,218,218);
+  color:black;
+  padding:20px 10px;
+  transition:opacity 0.2s;
+  opacity:30%;
+}
+.prev:hover,.next:hover{
+  background-color:rgb(156, 156, 156);
+  opacity:100%;
+}
+.prev{
+  left:0;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.next{
+  right:0;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}

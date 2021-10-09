@@ -2,8 +2,8 @@ body {
   background:linear-gradient(to bottom, black,#555555) no-repeat center center fixed;
   color:white;
   background-size:cover;
-  margin-top:80px;
-  user-select: none;
+  margin:0;
+  padding-top:80px;
 }
 a.menu {
   background-color:black;
@@ -11,6 +11,7 @@ a.menu {
   color:white;
   text-decoration: none;
   padding:15px 20px;
+  
 }
 a.menu:link{
   color:white;
@@ -21,7 +22,7 @@ a.menu:hover {
   transition: background-color 0.2s;
 }
 #GSHSMark{
-  display:inline;
+  display:inline-block;
   float:left;
   margin-right:20px;
   width:55px;
@@ -35,6 +36,7 @@ a.menu:hover {
   padding-top:5px;
   background-color:#111111;
   border-bottom:1px solid white;
+  user-select:none;
 }
 #Menu_btn{
   display:table-cell;
