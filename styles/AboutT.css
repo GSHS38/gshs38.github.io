@@ -1,55 +1,58 @@
-div.nameBox {
-  border:5px double white;
-  width:90%;
+.nameBox {
+  border:2px solid white;
   display:inline-block;
-  margin: 0;
-  margin-top:15px;
-  line-height:120%
+  padding:10px;
+  cursor:pointer;
+  line-height:120%;
+  transition:0.2s;
+  /* float:left; */
+  width:25%;
+  height: 150px;
+  margin:0;
 }
-div.NameContainer {
+.nameBox:hover{
+  background-color:white;
+  color:black;
+  transition:0.2s;
+}
+
+.clear{
+  clear:both;
+}
+
+#NameContainer {
   max-width: 1350px;
   min-width: 650px;
   width:60%;
   margin:auto;
   text-align:center;
+  user-select:none;
 }
-div.MainNameBox {
-    border:20px ridge white;
-    width:90%;
-    align-self:left;
-    display:block;
-    line-height:120%
-    text-align: center;
-  }
-div.subNameBox {
-  border:20px groove white;
-  width:550px;
-  height:450px;
-  align-self:left;
-  display:inline-flex;
-  flex-direction:column;
+
+#MainNameBox {
+  border:20px ridge white;
+  
   line-height:120%;
-  margin:auto;
+  text-align: center;
+
+}
+#subNameBox {
+  border:20px groove white;
+  height:100px;
+  line-height:120%;
   margin-left:5px;
   margin-right:5px;
   margin-bottom:10px;
 }
-div.subNameContainer {
-  max-width: 1800px;
-  min-width: 550px;
-  width:90%;
-  margin:auto;
-  text-align:center;
-}
-h3.Name {
-  text-align:left;
-  margin-left:10px;
-  line-height:80%;
-}
-hr.InSubNameBox {
-    margin:0;
+.subName{
+  font-family:'Nanum Gothic', sans-serif;
 }
 
+h3.Name {
+  font-family:Copperplate, 'Copperplate Gothic Light', 'Copperplate Gothic Bold', sans-serif;
+  text-align:center;
+  line-height:80%;
+}
 
 .introduceP{
     color: #ffffff;
@@ -57,4 +60,18 @@ hr.InSubNameBox {
     font-size: 15px;
     text-align: left;
     margin-left:10px;
-  }
+}
+
+h2.Name{
+  color:black;
+}
+.profileImage{
+  width:100px;
+  float:left;
+  
+  margin:0 auto;
+  position: static;
+}
+.profileImage:hover{
+  filter:opacity(80%);
+}
