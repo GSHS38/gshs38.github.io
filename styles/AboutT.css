@@ -1,27 +1,42 @@
-div.nameBox {
-  border:5px double white;
-  width:100%;
-  height:100px;
+.nameBox {
+  border:2px solid white;
   display:inline-block;
-  margin:10px;
-  
-  line-height:120%
+  padding:10px;
+  cursor:pointer;
+  line-height:120%;
+  transition:0.2s;
+  /* float:left; */
+  width:25%;
+  height: 150px;
+  margin:0;
 }
-div.NameContainer {
+.nameBox:hover{
+  background-color:white;
+  color:black;
+  transition:0.2s;
+}
+
+.clear{
+  clear:both;
+}
+
+#NameContainer {
   max-width: 1350px;
   min-width: 650px;
   width:60%;
   margin:auto;
   text-align:center;
+  user-select:none;
 }
 
-div.MainNameBox {
+#MainNameBox {
   border:20px ridge white;
-  display:block;
+  
   line-height:120%;
   text-align: center;
+
 }
-div.subNameBox {
+#subNameBox {
   border:20px groove white;
   height:100px;
   line-height:120%;
@@ -29,10 +44,13 @@ div.subNameBox {
   margin-right:5px;
   margin-bottom:10px;
 }
+.subName{
+  font-family:'Nanum Gothic', sans-serif;
+}
 
 h3.Name {
-  text-align:left;
-  margin-left:10px;
+  font-family:Copperplate, 'Copperplate Gothic Light', 'Copperplate Gothic Bold', sans-serif;
+  text-align:center;
   line-height:80%;
 }
 
