@@ -5,10 +5,11 @@
   cursor:pointer;
   line-height:120%;
   transition:0.2s;
+  overflow: auto;
   /* float:left; */
-  width:25%;
+  width:300px;
   height: 150px;
-  margin:0;
+  margin:20px;
 }
 .nameBox:hover{
   background-color:white;
@@ -38,7 +39,8 @@
 }
 #subNameBox {
   border:20px groove white;
-  height:100px;
+  height:430px;
+  width: ;
   line-height:120%;
   margin-left:5px;
   margin-right:5px;

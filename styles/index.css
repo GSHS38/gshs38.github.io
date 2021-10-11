@@ -81,3 +81,35 @@ div.slide:not(.show, .hide){
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
+
+a.roundclick{
+  margin:0;
+  display:inline-block;
+  cursor:pointer;
+  height:30px;
+}
+/* a.roundclick:hover{
+  background-color:rgb(158, 158, 158);
+  transition:0.2s;
+} */
+.roundbar{
+  width:100%;
+  position:absolute;
+  text-align:center;
+  bottom:0;
+  user-select: none;
+}
+.round{
+  background-color:rgb(185, 185, 185);
+  width:10px;
+  height:10px;
+  display:block;
+  border-radius:5px;
+  margin-left:2px;
+  margin-right:2px;
+  margin-top:auto;
+  margin-bottom:auto;
+}
+.round.selected{
+  background-color:white;
+}

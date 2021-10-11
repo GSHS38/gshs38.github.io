@@ -23,7 +23,8 @@ function slidenext(){
         }
     }
     slides[slideIndex].classList.add('show');
-
+    
+    updateRound();
     resetTimer();
 }
 
@@ -41,14 +42,37 @@ function slideprev(){
     slides[slideIndex].classList.add('show');
     slides[slideIndex].classList.remove('hide');
 
+    updateRound();
     resetTimer();
 }
 
+function slideGoto(n){
+    n--;
+    while(slideIndex>n){
+        slideprev();
+    }
+    while(slideIndex<n){
+        slidenext();
+    }
+
+    
+}
 
 function resetTimer(){
     clearInterval(interval);
     interval=setInterval(slidenext,10000);
 }
 
+function updateRound(){
+    const rounds=document.querySelectorAll(".round");
+    for(let i=0;i<slideCount;i++){
+        if(i==slideIndex){
+            rounds[i].classList.add('selected');
+        }
+        else{
+            rounds[i].classList.remove('selected');
+        }
+    }
+}
 
 interval=setInterval(slidenext,10000);
