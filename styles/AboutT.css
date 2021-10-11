@@ -1,3 +1,24 @@
 body > h1 {
     margin-left:50px;
+    margin-bottom:50px;
+}
+.Name {
+
+}
+.profileImage {
+ width:100px;
+  float:left;
+  
+  margin:0;
+  margin-right:10px;
+  position: static;
+}
+.profileImage:hover{
+    filter:opacity(80%);
+}
+.Introduce {
+
+}
+.popup > h1 {
+
 }
