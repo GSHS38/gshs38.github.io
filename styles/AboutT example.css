@@ -1,0 +1,79 @@
+.nameBox {
+  border:2px solid white;
+  display:inline-block;
+  padding:10px;
+  cursor:pointer;
+  line-height:120%;
+  transition:0.2s;
+  overflow: auto;
+  /* float:left; */
+  width:300px;
+  height: 150px;
+  margin:20px;
+}
+.nameBox:hover{
+  background-color:white;
+  color:black;
+  transition:0.2s;
+}
+
+.clear{
+  clear:both;
+}
+
+#NameContainer {
+  max-width: 1350px;
+  min-width: 650px;
+  width:60%;
+  margin:auto;
+  text-align:center;
+  user-select:none;
+}
+
+#MainNameBox {
+  border:20px ridge white;
+  
+  line-height:120%;
+  text-align: center;
+
+}
+#subNameBox {
+  border:20px groove white;
+  height:430px;
+  width: ;
+  line-height:120%;
+  margin-left:5px;
+  margin-right:5px;
+  margin-bottom:10px;
+}
+.subName{
+  font-family:'Nanum Gothic', sans-serif;
+}
+
+h3.Name {
+  font-family:Copperplate, 'Copperplate Gothic Light', 'Copperplate Gothic Bold', sans-serif;
+  text-align:center;
+  line-height:80%;
+}
+
+.introduceP{
+    color: #ffffff;
+    font-family: courier;
+    font-size: 15px;
+    text-align: left;
+    margin-left:10px;
+}
+
+h2.Name{
+  color:black;
+}
+.profileImage{
+  width:100px;
+  float:left;
+  
+  margin:0 auto;
+  position: static;
+}
+.profileImage:hover{
+  filter:opacity(80%);
+}
