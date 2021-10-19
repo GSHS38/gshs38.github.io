@@ -32,14 +32,14 @@
 
 #MainNameBox {
   border:20px ridge white;
-  
+
   line-height:120%;
   text-align: center;
 
 }
 #subNameBox {
   border:20px groove white;
-  height:430px;
+  height:100%x;
   width: ;
   line-height:120%;
   margin-left:5px;
@@ -70,7 +70,7 @@ h2.Name{
 .profileImage{
   width:100px;
   float:left;
-  
+
   margin:0 auto;
   position: static;
 }
